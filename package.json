@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
-    "report": "npx playwright show-report",
+    "clean_report": "rm -rf playwright-report/",
+    "create_report": "npx playwright test --reporter=html",
+    "show_report": "playwright show-report",
     "ui": "npx playwright test --ui",
     "dev": "nodemon --exec npx playwright test --ui",
     "dev_consol": "nodemon --exec npx playwright test"

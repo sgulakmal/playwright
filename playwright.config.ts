@@ -2,7 +2,6 @@ import { defineConfig } from '@playwright/test';
 require('dotenv').config()
 
 export default defineConfig({
-  
   use: {
     // All requests we send go to this API endpoint.
     baseURL: process.env.BASE_URL,
