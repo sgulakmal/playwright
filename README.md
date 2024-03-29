@@ -11,6 +11,7 @@ This project uses [Playwright](https://playwright.dev/) to automate and test API
 - Node.js
 - A text editor or IDE of your choice. (Better if you can use [VSCode](https://code.visualstudio.com/))
 - Basic understanding of JavaScript and API concepts
+- This poject Using [nodemon](https://www.npmjs.com/package/nodemon). (No need to install `nodemon` seperatly. it alredy include as dev dependency):
 
 ### Installation
 
