@@ -1,4 +1,4 @@
-# ALCM Playwright API Testing Project
+# ALCM API Testing Project
 
 ## Overview
 
